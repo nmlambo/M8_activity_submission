@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atume | About</title>
+    <link rel="stylesheet" href="styles.css">
+    <script>
+        function toggleNav() {
+            var nav = document.getElementById("navbar");
+            if (nav.style.display === "block") {
+                nav.style.display = "none";
+            } else {
+                nav.style.display = "block";
+            }
+        }
+    </script>
+</head>
+<body>
+    <header>
+        <div class="hamburger-menu" onclick="toggleNav()" style="margin-left: 1rem;">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="header-content">
+            <img src="./image/logo-removebg-preview.png" alt="Atume Logo" class="logo">
+        </div>
+        <nav>
+            <ul id="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="shop.html">Shop</a></li>
+                <li><a href="podcast.html">Podcast</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="about-section">
+        <div class="about-content">
+            <h2>About Atume</h2>
+            <p>Founded in January of 2023, Atume has been dedicated to empowering upcoming musicians and unlocking their full potential. Our passion is rooted in the belief that every artist deserves a chance to shine. By providing high-quality music samples, resources, and a community for collaboration, we help artists to create, inspire, and reach new heights in their musical journey.</p>
+        </div>
+        <div class="about-image">
+            <img src="./image/product-3.jpg" alt="About Atume">
+        </div>
+    </section>
+    <footer>
+        <footer>
+            <div class="footer-navigation">
+                <ul class="footer-column">
+                    <li><a href="shop.html">Shop</a></li>
+                    <li><a href="about.html">About</a></li>
+                </ul>
+                <ul class="footer-column">
+                    <li><a href="podcast.html">Podcast</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+                <ul class="footer-column">
+                    <li><a href="faqs.html">Frequently asked Questions</a></li>
+                    <li><a href="terms-and-conditions.html">Terms and Conditions</a></li>
+                </ul>
+            </div>
+        </footer>
+        
+        <div class="footer-social">
+            <a href="atume-facebook-link" target="_blank">Facebook</a>
+            <a href="atume-twitter-link" target="_blank">Twitter</a>
+            <a href="atume-instagram-link" target="_blank">Instagram</a>
+            <a href="atume-youtube-link" target="_blank">YouTube</a>
+        </div>
+        <div class="footer-newsletter">
+            <p>Subscribe to our newsletter:</p>
+            <form action="your-newsletter-subscription-url" method="post">
+                <input type="email" name="email" placeholder="Enter your email">
+                <button type="submit">Subscribe</button>
+            </form>
+        </div>
+        <p>© 2023 Atume</p>
+    </footer>
+</body>
+</html>
